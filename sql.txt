@@ -4,8 +4,8 @@ CREATE DATABASE myinventory;
 
 USE myinventory;
 
-CREATE TABLE myinventory (
-  id INT AUTO_INCREMENT PRIMARY KEY,
+CREATE TABLE my_items (
+  id_items INT AUTO_INCREMENT PRIMARY KEY,
   nama_barang VARCHAR(100) NOT NULL,
   jumlah_barang INT NOT NULL,
   status_barang VARCHAR(50) NOT NULL
